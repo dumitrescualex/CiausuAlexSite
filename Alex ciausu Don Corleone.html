@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Text on Green Background</title>
+    <style>
+        body {
+            background-color: green;
+            color: red;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .small-text {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .image-row img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Acest este un site despre Don Vito Corleone</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/21/Godfather15_flip.jpg" alt="Image of Don Vito Corleone">
+        <p class="small-text">Am ales să fac acest site despre Don Corleone deoarece este personajul meu fictiv preferat dintr-un film care-l ador.</p>
+        <div class="image-row">
+            <img src="https://i.ytimg.com/vi/MJRTKrU8YNs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD" alt="The Godfather movie still">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/af/The_Godfather%2C_The_Game.jpg" alt="The Godfather game cover">
+        </div>
+    </div>
+</body>
+</html>
